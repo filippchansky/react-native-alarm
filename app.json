@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-calendar",
+        {
+          "calendarPermission": "The app needs to access your calendar."
+        }
+      ]
+    ],
     "name": "alarm-native",
     "slug": "alarm-native",
     "version": "1.0.0",

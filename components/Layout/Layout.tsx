@@ -1,20 +1,19 @@
-import React from 'react'
-import { View } from 'react-native';
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
+import React from "react";
+import { View } from "react-native";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 interface LayoutProps {
-    children: React.ReactNode
+  children: React.ReactNode;
 }
 
-const Layout:React.FC<LayoutProps> = ({children}) => {
-    
-    return (
-        <>
-            <Header/>
-            {children}
-            <Footer/>
-        </>
-    )
-}
+const Layout: React.FC<LayoutProps> = ({ children }) => {
+  return (
+    <>
+      <Header />
+      {children}
+      <Footer />
+    </>
+  );
+};
 export default Layout;
