@@ -29,6 +29,9 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
+    display: "flex",
+    flexDirection: 'column',
+    gap: 20,
     flex: 1,
     backgroundColor: "#fff",
     alignItems: "center",
